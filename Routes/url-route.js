@@ -9,7 +9,7 @@ const params = {
    'returnFaceAttributes': 'age,gender,headPose,smile,facialHair,glasses,' +
        'emotion,hair,makeup,occlusion,accessories,blur,exposure,noise'
 };
-//Comments
+
 router.get('/', (req, res)=>{
    res.send('API OK');
 });
