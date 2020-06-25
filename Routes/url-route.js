@@ -11,6 +11,7 @@ const params = {
 };
 
 router.get('/', (req, res)=>{
+   
    res.send('API OK');
 });
 
